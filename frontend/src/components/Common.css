@@ -1,0 +1,92 @@
+.signup-container {
+  max-width: 500px; /* Max width for a wider card */
+  width: 100%; /* Ensure the card takes full width up to the max-width */
+  margin: 50px auto;
+  padding: 20px; /* Padding for a more compact height */
+  background-color: #121212;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+.signup-title {
+  color: #ffffff;
+  font-size: 32px; /* Increased font size for the title */
+  margin-bottom: 15px; /* Adjusted margin to keep the card compact */
+  font-weight: 700;
+}
+
+.error-message {
+  color: #e80074;
+  margin-bottom: 15px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjusted gap between elements for compact spacing */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Reduced margin for better spacing */
+}
+
+.form-group label {
+  color: #b3b3b3;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px; /* Increased font size for better readability */
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px; /* Increased padding for a larger input area */
+  border-radius: 4px;
+  border: 1px solid #1db954;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 18px; /* Increased font size for the input text */
+  text-align: center; /* Center text inside input field */
+}
+
+.form-control::placeholder {
+  color: #888888;
+  text-align: center; /* Center placeholder text */
+}
+
+.submit-button {
+  background-color: #1db954;
+  color: #ffffff;
+  border: none;
+  padding: 12px; /* Reduced padding for a shorter button */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px; /* Increased font size for the button */
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1ed760;
+}
+
+.signin-redirect-button {
+  background-color: transparent;
+  color: #1db954;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px; /* Increased font size for the redirect button */
+  text-decoration: underline;
+}
+
+.signin-redirect-button:hover {
+  color: #1ed760;
+}
+
+.signup-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

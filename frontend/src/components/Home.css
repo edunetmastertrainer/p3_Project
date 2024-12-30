@@ -1,0 +1,77 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Spotify', sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+}
+
+.card .card-title {
+  color: #ffffff;
+}
+
+.card .card-text {
+  color: #b3b3b3;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card .audio-controls audio {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #1db954;
+  border: none;
+  color: white;
+}
+
+.btn-outline-success {
+  border-color: #1db954;
+  color: #1db954;
+}
+
+.btn-outline-success:hover {
+  background-color: #1db954;
+  color: white;
+}
+
+.navbar-custom {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #282828;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #1db954;
+}
+
+.spinner-border {
+  color: #1db954;
+}
+
+.animated-text {
+  color: white;
+}
+
+.artistic-img {
+  border-radius: 8px;
+}
+
+.text-danger {
+  color: #ff4c4c !important;
+}

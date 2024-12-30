@@ -1,0 +1,96 @@
+
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  color: #1db954;
+}
+
+.card-text {
+  color: #b3b3b3;
+  font-size: 0.875rem;
+}
+
+.card-img-top {
+  border-radius: 12px 12px 0 0;
+}
+
+.add-options button {
+  background-color: transparent;
+  border: none;
+  color: #b3b3b3;
+  padding: 0.25rem;
+}
+
+.add-options button:hover {
+  color: #1db954;
+}
+
+.add-options i {
+  font-size: 1.2em;
+}
+
+.audio-controls audio {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.song-title {
+  cursor: pointer;
+  color: #fff;
+}
+
+.song-title:hover {
+  color: #1db954;
+}
+
+.modal-content {
+  background-color: #282828;
+  border-radius: 12px;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-title {
+  color: #1db954;
+}
+
+.modal-body {
+  color: #b3b3b3;
+}
+
+.modal-body img {
+  border-radius: 12px;
+}
+
+button.btn-secondary {
+  background-color: #404040;
+  border-color: #404040;
+}
+
+button.btn-secondary:hover {
+  background-color: #1db954;
+  border-color: #1db954;
+}
